@@ -1,0 +1,83 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push_DPDT SW1
+U 1 1 5F0E91BA
+P 3700 3400
+F 0 "SW1" H 3700 3885 50  0000 C CNN
+F 1 "SW_Push_DPDT" H 3700 3794 50  0000 C CNN
+F 2 "rt_mechanical:DPDT" H 3700 3600 50  0001 C CNN
+F 3 "~" H 3700 3600 50  0001 C CNN
+	1    3700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_01x06_MountingPin J1
+U 1 1 5F0EABF2
+P 5000 3300
+F 0 "J1" H 5088 3214 50  0000 L CNN
+F 1 "Conn_01x06_MountingPin" H 5088 3123 50  0000 L CNN
+F 2 "Connectors_JST:JST_PH_S6B-PH-SM4-TB_06x2.00mm_Angled" H 5000 3300 50  0001 C CNN
+F 3 "~" H 5000 3300 50  0001 C CNN
+	1    5000 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3100 4800 3100
+Wire Wire Line
+	3500 3200 3500 3300
+Wire Wire Line
+	3500 3300 3750 3300
+Wire Wire Line
+	3750 3300 3750 3200
+Wire Wire Line
+	3750 3200 4800 3200
+Wire Wire Line
+	3900 3300 4800 3300
+Wire Wire Line
+	3900 3500 3900 3400
+Wire Wire Line
+	3900 3400 4800 3400
+Wire Wire Line
+	3500 3600 3500 3700
+Wire Wire Line
+	3500 3700 3700 3700
+Wire Wire Line
+	3700 3700 3700 3600
+Wire Wire Line
+	4500 3600 4500 3500
+Wire Wire Line
+	4500 3500 4800 3500
+Wire Wire Line
+	3700 3600 4500 3600
+Wire Wire Line
+	4800 3600 4800 3700
+Wire Wire Line
+	4800 3700 3900 3700
+$Comp
+L power:GND #PWR01
+U 1 1 5F0ECB95
+P 5000 3900
+F 0 "#PWR01" H 5000 3650 50  0001 C CNN
+F 1 "GND" H 5005 3727 50  0000 C CNN
+F 2 "" H 5000 3900 50  0001 C CNN
+F 3 "" H 5000 3900 50  0001 C CNN
+	1    5000 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3800 5000 3900
+$EndSCHEMATC
